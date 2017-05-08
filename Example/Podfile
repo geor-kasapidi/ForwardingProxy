@@ -1,0 +1,6 @@
+target 'ForwardingProxy' do
+  use_frameworks!
+
+  pod 'ForwardingProxy', :path => '../'
+
+end

@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173EA83ECC7EE30596E7A8408C306A14 /* ForwardingProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A44D05128DA5B89208D8F60B1B35E1 /* ForwardingProxy-dummy.m */; };
+		8A63E930F12B0E3540E19C78F571620C /* Pods-ForwardingProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CC6202985039E5095041708EDDA4E4 /* Pods-ForwardingProxy-dummy.m */; };
+		90A7804B90994EE74559075AB00EF6B0 /* Pods-ForwardingProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1AE571F70A8EB3B7847396E6A680B1 /* Pods-ForwardingProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956523341DB52A0E4E45EC30C1AA475D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		99D592496F178944A4E73FE2468DAC49 /* ForwardingProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AD68CC255241D48D8CE30EC7EC1EA087 /* ForwardingProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA76B40956059B1DEA4DEE49B89887D /* ForwardingProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3606D6641024B3ABC606ADA49BF5B8 /* ForwardingProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F577050CE15904665476C1283C408AB8 /* ForwardingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE0004FC9886E199AF42ABD1791895 /* ForwardingProxy.m */; };
+		FDCB5D8BDB31E4E327054E88EBA0E33F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C170B93C23C1EAD6383383FD00E1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150F53767ED1421B207344E8ADC5E225;
+			remoteInfo = ForwardingProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026A0B660800D8EBA07DA4F731D3635F /* ForwardingProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ForwardingProxy.modulemap; sourceTree = "<group>"; };
+		1CEE26B088A93226E344EE00B4031529 /* Pods-ForwardingProxy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForwardingProxy-frameworks.sh"; sourceTree = "<group>"; };
+		1CFE0004FC9886E199AF42ABD1791895 /* ForwardingProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ForwardingProxy.m; sourceTree = "<group>"; };
+		237E4B2FB0AFD1F1A0D10580D3DD1A2A /* ForwardingProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ForwardingProxy.xcconfig; sourceTree = "<group>"; };
+		38E6197946A50CC5018239A772262400 /* ForwardingProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ForwardingProxy.framework; path = ForwardingProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3606D6641024B3ABC606ADA49BF5B8 /* ForwardingProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForwardingProxy-umbrella.h"; sourceTree = "<group>"; };
+		465D4709EFF4C89DF2A0E7674EED0C01 /* Pods-ForwardingProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForwardingProxy.release.xcconfig"; sourceTree = "<group>"; };
+		5ED53476DAAD3D252E9CDEF04D100D1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F7D8ADDB64CF314B99A806787616BF /* ForwardingProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForwardingProxy-prefix.pch"; sourceTree = "<group>"; };
+		65D545557F232C501E95D4493680E855 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1AE571F70A8EB3B7847396E6A680B1 /* Pods-ForwardingProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForwardingProxy-umbrella.h"; sourceTree = "<group>"; };
+		866806D35A92932E6BAC8A8B50EE38D1 /* Pods_ForwardingProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ForwardingProxy.framework; path = "Pods-ForwardingProxy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A44D05128DA5B89208D8F60B1B35E1 /* ForwardingProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ForwardingProxy-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		972D848C8477494E4227D4D5B673BD28 /* Pods-ForwardingProxy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForwardingProxy-resources.sh"; sourceTree = "<group>"; };
+		A34AF53520461F6A1E4EF447E21FD7C2 /* Pods-ForwardingProxy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForwardingProxy-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD68CC255241D48D8CE30EC7EC1EA087 /* ForwardingProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ForwardingProxy.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D906C63756615ED65963CF9B59235C9E /* Pods-ForwardingProxy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForwardingProxy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E03707D702B1968E955545A7F587C682 /* Pods-ForwardingProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForwardingProxy.debug.xcconfig"; sourceTree = "<group>"; };
+		E5CC6202985039E5095041708EDDA4E4 /* Pods-ForwardingProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForwardingProxy-dummy.m"; sourceTree = "<group>"; };
+		F58E5BDEE791D23B883B19F2210F382D /* Pods-ForwardingProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ForwardingProxy.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD88A38E0F20E9C99F5FEA917554D082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB5D8BDB31E4E327054E88EBA0E33F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403AC942077D52438C782C7AD41DB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956523341DB52A0E4E45EC30C1AA475D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD87D9245D80739A22FEB6DCCA77495 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				026A0B660800D8EBA07DA4F731D3635F /* ForwardingProxy.modulemap */,
+				237E4B2FB0AFD1F1A0D10580D3DD1A2A /* ForwardingProxy.xcconfig */,
+				89A44D05128DA5B89208D8F60B1B35E1 /* ForwardingProxy-dummy.m */,
+				61F7D8ADDB64CF314B99A806787616BF /* ForwardingProxy-prefix.pch */,
+				3F3606D6641024B3ABC606ADA49BF5B8 /* ForwardingProxy-umbrella.h */,
+				65D545557F232C501E95D4493680E855 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ForwardingProxy";
+			sourceTree = "<group>";
+		};
+		487DE995BC3313ADCC814FB7050A9F42 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551C2DE7E42B56931E5C1F652EE59BBA /* ForwardingProxy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		551C2DE7E42B56931E5C1F652EE59BBA /* ForwardingProxy */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FD4361ED221CC701AB2753E1626EE /* Source */,
+				3BD87D9245D80739A22FEB6DCCA77495 /* Support Files */,
+			);
+			name = ForwardingProxy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5B3A896C73CD9E7560227892CB097CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E6197946A50CC5018239A772262400 /* ForwardingProxy.framework */,
+				866806D35A92932E6BAC8A8B50EE38D1 /* Pods_ForwardingProxy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				487DE995BC3313ADCC814FB7050A9F42 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5B3A896C73CD9E7560227892CB097CED /* Products */,
+				EBCD7581408ED0EBA7E2AEF50B83D12E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9FD4361ED221CC701AB2753E1626EE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AD68CC255241D48D8CE30EC7EC1EA087 /* ForwardingProxy.h */,
+				1CFE0004FC9886E199AF42ABD1791895 /* ForwardingProxy.m */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C28733F535844CC90B5A5821E9FF0C71 /* Pods-ForwardingProxy */ = {
+			isa = PBXGroup;
+			children = (
+				5ED53476DAAD3D252E9CDEF04D100D1A /* Info.plist */,
+				F58E5BDEE791D23B883B19F2210F382D /* Pods-ForwardingProxy.modulemap */,
+				D906C63756615ED65963CF9B59235C9E /* Pods-ForwardingProxy-acknowledgements.markdown */,
+				A34AF53520461F6A1E4EF447E21FD7C2 /* Pods-ForwardingProxy-acknowledgements.plist */,
+				E5CC6202985039E5095041708EDDA4E4 /* Pods-ForwardingProxy-dummy.m */,
+				1CEE26B088A93226E344EE00B4031529 /* Pods-ForwardingProxy-frameworks.sh */,
+				972D848C8477494E4227D4D5B673BD28 /* Pods-ForwardingProxy-resources.sh */,
+				6F1AE571F70A8EB3B7847396E6A680B1 /* Pods-ForwardingProxy-umbrella.h */,
+				E03707D702B1968E955545A7F587C682 /* Pods-ForwardingProxy.debug.xcconfig */,
+				465D4709EFF4C89DF2A0E7674EED0C01 /* Pods-ForwardingProxy.release.xcconfig */,
+			);
+			name = "Pods-ForwardingProxy";
+			path = "Target Support Files/Pods-ForwardingProxy";
+			sourceTree = "<group>";
+		};
+		EBCD7581408ED0EBA7E2AEF50B83D12E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28733F535844CC90B5A5821E9FF0C71 /* Pods-ForwardingProxy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27F2051439CF10C5BB7EAA042BD02283 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A7804B90994EE74559075AB00EF6B0 /* Pods-ForwardingProxy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FE489E4B080140E900BEBBEB9AB2F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA76B40956059B1DEA4DEE49B89887D /* ForwardingProxy-umbrella.h in Headers */,
+				99D592496F178944A4E73FE2468DAC49 /* ForwardingProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		057E97B7944B6FB8FE7DD28214C9D1A3 /* Pods-ForwardingProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CFC7959B6A2F6C3BC4286BA7204C3C /* Build configuration list for PBXNativeTarget "Pods-ForwardingProxy" */;
+			buildPhases = (
+				A3EC25FEBFD242C1E5A0589985EBE679 /* Sources */,
+				CD88A38E0F20E9C99F5FEA917554D082 /* Frameworks */,
+				27F2051439CF10C5BB7EAA042BD02283 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C3557E7758E938D6C61F18C3D3D41B /* PBXTargetDependency */,
+			);
+			name = "Pods-ForwardingProxy";
+			productName = "Pods-ForwardingProxy";
+			productReference = 866806D35A92932E6BAC8A8B50EE38D1 /* Pods_ForwardingProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		150F53767ED1421B207344E8ADC5E225 /* ForwardingProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9488D9CA86FB490E105684EE79F1DE7C /* Build configuration list for PBXNativeTarget "ForwardingProxy" */;
+			buildPhases = (
+				A33C78AC09326BB9B2844EE5B2AB76B9 /* Sources */,
+				D403AC942077D52438C782C7AD41DB5D /* Frameworks */,
+				67FE489E4B080140E900BEBBEB9AB2F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForwardingProxy;
+			productName = ForwardingProxy;
+			productReference = 38E6197946A50CC5018239A772262400 /* ForwardingProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B3A896C73CD9E7560227892CB097CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150F53767ED1421B207344E8ADC5E225 /* ForwardingProxy */,
+				057E97B7944B6FB8FE7DD28214C9D1A3 /* Pods-ForwardingProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33C78AC09326BB9B2844EE5B2AB76B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173EA83ECC7EE30596E7A8408C306A14 /* ForwardingProxy-dummy.m in Sources */,
+				F577050CE15904665476C1283C408AB8 /* ForwardingProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EC25FEBFD242C1E5A0589985EBE679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A63E930F12B0E3540E19C78F571620C /* Pods-ForwardingProxy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38C3557E7758E938D6C61F18C3D3D41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForwardingProxy;
+			target = 150F53767ED1421B207344E8ADC5E225 /* ForwardingProxy */;
+			targetProxy = 31C170B93C23C1EAD6383383FD00E1F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59FA6DB61070C48124A8BEE1CEB828BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237E4B2FB0AFD1F1A0D10580D3DD1A2A /* ForwardingProxy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForwardingProxy/ForwardingProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForwardingProxy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForwardingProxy/ForwardingProxy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ForwardingProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C327C3A75BED2ED87D5B7DCC66D1FD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465D4709EFF4C89DF2A0E7674EED0C01 /* Pods-ForwardingProxy.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForwardingProxy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForwardingProxy/Pods-ForwardingProxy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForwardingProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E9072F16654A7BD43293E9FC7409090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03707D702B1968E955545A7F587C682 /* Pods-ForwardingProxy.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForwardingProxy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForwardingProxy/Pods-ForwardingProxy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForwardingProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE1253DCA500312F454BF71E4D04E550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237E4B2FB0AFD1F1A0D10580D3DD1A2A /* ForwardingProxy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForwardingProxy/ForwardingProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForwardingProxy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForwardingProxy/ForwardingProxy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ForwardingProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CFC7959B6A2F6C3BC4286BA7204C3C /* Build configuration list for PBXNativeTarget "Pods-ForwardingProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9072F16654A7BD43293E9FC7409090A /* Debug */,
+				C327C3A75BED2ED87D5B7DCC66D1FD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9488D9CA86FB490E105684EE79F1DE7C /* Build configuration list for PBXNativeTarget "ForwardingProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FA6DB61070C48124A8BEE1CEB828BE /* Debug */,
+				FE1253DCA500312F454BF71E4D04E550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

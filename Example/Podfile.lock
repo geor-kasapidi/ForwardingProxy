@@ -1,0 +1,16 @@
+PODS:
+  - ForwardingProxy (0.0.1)
+
+DEPENDENCIES:
+  - ForwardingProxy (from `../`)
+
+EXTERNAL SOURCES:
+  ForwardingProxy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ForwardingProxy: 5e83db5feed2abec1a123571931e8912180bee65
+
+PODFILE CHECKSUM: c8e1e6b5284b112c25fb36fcb967596ac7d9aea1
+
+COCOAPODS: 1.2.0
